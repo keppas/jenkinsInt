@@ -6,6 +6,7 @@ job('simpleTrigger') {
   steps {
     shell('echo $JOB_NAME $BUILD_NUMBER')
     shell('echo $Object')
+    shell('echo updated')
   }
   
   publishers {
